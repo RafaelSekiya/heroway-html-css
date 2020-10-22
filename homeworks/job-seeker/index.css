@@ -113,6 +113,12 @@ input {
 .botao input {
   cursor: pointer;
   margin-top: 2vh;
+  border-radius: 4vh;
+}
+
+.botao input:hover {
+  background-color: rgb(255, 72, 194);
+  transition: 0.5s;
 }
 
 /* Animações */
