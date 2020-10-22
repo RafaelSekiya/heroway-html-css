@@ -108,6 +108,21 @@ input {
   height: 3vh;
   display: block;
   margin-left: 20vh;
+  border-radius: 0.7vh;
+}
+
+input:hover{
+  border: 0.2vh solid rgb(255, 0, 170);
+}
+
+/* Desabilitar resize */
+textarea {
+  border-radius: 0.7vh;
+  resize: none;   
+}
+
+textarea:hover{
+  border: 0.2vh solid rgb(255, 0, 170);
 }
 
 .botao input {
