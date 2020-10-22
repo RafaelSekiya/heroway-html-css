@@ -25,13 +25,12 @@ h2 {
   width: 30vh;
 
   color: red;
-
 }
 
 body {
   height: 70vh;
   background-color: whitesmoke;
-  background: linear-gradient(whitesmoke 25%, rgb(255, 0, 170) 100%);
+  background: linear-gradient(whitesmoke 45%, rgb(255, 0, 170) 100%);
 
   background-repeat: no-repeat; /* não entendi direito essas duas propriedades */
   background-attachment: fixed;
@@ -44,7 +43,7 @@ body {
   height: 7.5vh;
   z-index: 1;
   background-color: whitesmoke;
-  padding-bottom: 0.3%;     /* Qual é a diferença entre %, vh, px e rem? */
+  padding-bottom: 0.3%; /* Qual é a diferença entre %, vh, px e rem? */
   padding-top: 0%;
 }
 
@@ -93,7 +92,30 @@ body {
   transition: 0.25s;
 }
 
+#form {
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 76vh;
+  width: 60vh;
+  height: 45vh;
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 2vh;
+  border: solid 0.5vh rgb(255, 0, 170);
+}
 
+input {
+  width: 20vh;
+  height: 3vh;
+  display: block;
+  margin-left: 20vh;
+}
+
+.botao input {
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+/* Animações */
 @keyframes appear {
   from {
     opacity: 0;
@@ -119,7 +141,7 @@ body {
   from {
     opacity: 1;
   }
-  
+
   to {
     opacity: 0;
   }
@@ -134,8 +156,8 @@ body {
 .animate-up {
   animation-name: up;
   animation-duration: 0.65s;
-  animation-fill-mode: backwards;  /* oq é exatamente esse animation-fill-mode ??? */
-     /* Como fazer uma animação em que a página começa a aparecer de cima para baixo, acompanhando a cor do linear-gradient ?*/ 
+  animation-fill-mode: backwards; /* oq é exatamente esse animation-fill-mode ??? */
+  /* Como fazer uma animação em que a página começa a aparecer de cima para baixo, acompanhando a cor do linear-gradient ?*/
 }
 
 .blink {
