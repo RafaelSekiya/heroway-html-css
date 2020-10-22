@@ -19,7 +19,7 @@
       style="padding: 5px 20px" />
     <div class="links">
       <a href="index.html">Inicio</a>
-      <a href="https://www.heroway.com.br/treinamento/" target="_blank">Contato</a>
+      <a href="#form">Contato</a>
       <a href="https://www.heroway.com.br/treinamento/" target="_blank">Sobre nós</a>
     </div>
   </div>
@@ -32,27 +32,35 @@
     <img
       src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/10752/job-search-remotive-home.png" />
 
-
-    <!--
-      Testando qual versão seria a melhor, acho que essa foge um pouco da proposta do site
-
-    <a href="https://www.apple.com/br/" target="_blank">
-      <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" />
-    </a>
-    <a href="https://www.amazon.com.br/" target="_blank">                                         A
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png"
-        alt="Homem em busca de oportunidades" />
-    </a>
-    <a href="https://www.microsoft.com/pt-br/" target="_blank">
-      <img src="https://cdn1.iconfinder.com/data/icons/flat-and-simple-part-1/128/microsoft-512.png"
-        alt="Homem em busca de oportunidades" />
-    </a>
--->
     <div class="about">
       Ainda não domina essas tecnologias?
       <a href="https://heroway.com.br" target="_blank">clique aqui!</a>
+
+      <div id="form">
+        <form>
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name">
+          <label for="age">Idade</label>
+          <input type="number" id="age" name="age">
+          <label for="email">E-mail</label>
+          <input type="email" id="emal" name="email">
+          <label for="mensagem">Sua Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows='4' cols="50"></textarea>
+          <div class="botao">
+
+            <input type="reset">
+            <input type="submit" value="Enviar">
+          </div>
+
+        </form>
+      </div>
+
     </div>
   </div>
+
+
+
+
 
 </body>
 
