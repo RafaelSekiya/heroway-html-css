@@ -92,6 +92,30 @@ body {
   transition: 0.25s;
 }
 
+#form {
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 76vh;
+  width: 60vh;
+  height: 45vh;
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 2vh;
+  border: solid 0.5vh rgb(255, 0, 170);
+}
+
+input {
+  width: 20vh;
+  height: 3vh;
+  display: block;
+  margin-left: 20vh;
+}
+
+.botao input {
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+/* Animações */
 @keyframes appear {
   from {
     opacity: 0;
