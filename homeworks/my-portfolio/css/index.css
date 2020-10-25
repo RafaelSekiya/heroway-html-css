@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:400,700&display=swap");
 
-@import 'nav.css';
-@import 'hero.css';
-@import 'about.css';
+@import "nav.css";
+@import "hero.css";
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
+@import "portfolio.css";
+@import "copyright.css";
 
 * {
   box-sizing: border-box;
@@ -12,6 +16,33 @@
 
 body,
 html {
-  font: 16px "Montserrat", sans-serif;
+  font: 16px "Varela Round", sans-serif;
   scroll-behavior: smooth;
+}
+
+i {
+  font-size: 25px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  height: 30px;
+  margin: 15px auto;
+}
+
+.star span {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.star img {
+  width: 30px;
+  height: 30px;
 }
