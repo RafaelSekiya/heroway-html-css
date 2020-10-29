@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+
+@import "nav.css";
+@import "grayscale.css";
+@import "background-image.css";
+@import "ipad.css";
+@import "section-information.css";
+@import "subscribe.css";
+@import "section-contact.css";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  html {
+    font: 16px "Nunito", "Varela Round";
+    scroll-behavior: smooth;
+  }
+
+  .green-bar {
+    margin-top: 15px;
+    width: 120px;
+    height: 5px;
+    background-color: #64A19D;
+    border-radius: 10px;
+}

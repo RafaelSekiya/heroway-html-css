@@ -1,0 +1,74 @@
+.section-information{
+    height: 1500px;
+    width: 100%;
+    max-width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-information > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+.section-information > .container > .shoreline > .text {
+    color: #858586;
+    padding-left: 30px;
+    border-left: 8px solid #64a19d;
+}
+
+.section-information > .container > .shoreline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.shoreline  img {
+    width: 650px;
+    height: 400px;
+}
+
+.section-information > .container > .examples > .misty {
+    background-color: #161616;
+    color: #858586;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.section-information > .container > .examples > .misty h3 {
+    color: white;
+}
+
+.examples img {
+    width: 50%;
+}
+
+.section-information > .container > .examples > .misty .text2 {
+    padding: 0 60px;
+}
+
+.section-information > .container > .examples > .mountains {
+    background-color: #161616;
+    color: #858586;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.section-information > .container > .examples > .mountains .mountains-text {
+    padding: 0 50px;
+}
+
+.section-information > .container > .examples > .mountains .mountains-text .green-bar {
+    margin-left: 273px;
+}
+
+
