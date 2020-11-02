@@ -1,16 +1,21 @@
 .background-image {
-    background-image:linear-gradient(to bottom, rgb(92 92 92 / 52%) 0%, rgba(0, 0, 0, 0.73) 100%), url("../img/bg-masthead.jpg");
-    background-size: 100% 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(34 34 34 / 52%) 0%,
+      rgba(0, 0, 0, 0.73) 100%
+    ),
+    url("../img/bg-masthead.jpg");
+  background-size: 100% 100%;
 }
 
 @media (max-width: 599px) {
-    .nav > .container {
-      flex-direction: column;
-      padding: 20px 0;
-      height: auto;
-    }
-  
-    .nav > .container h1 {
-      margin-bottom: 20px;
-    }
+  .nav > .container {
+    flex-direction: column;
+    padding: 20px 0;
+    height: auto;
   }
+
+  .nav > .container h1 {
+    margin-bottom: 20px;
+  }
+}

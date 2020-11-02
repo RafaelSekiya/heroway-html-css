@@ -43,8 +43,8 @@
 }
 
 .section-subscribe > .container > .subscribe button {
-  width: 160px;
-  height: 55px;
+  width: 12rem;
+  height: 4rem;
   background-color: #64a19d;
   color: white;
   font-family: "Varela Round", "Nunito";
@@ -54,11 +54,13 @@
   letter-spacing: 2px;
   cursor: pointer;
 }
-
+/* for-tablet-landscate-up*/
 @media (max-width: 900px) {
   .section-subscribe > .container > .subscribe {
     width: 100%;
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
   .section-subscribe > .container > .subscribe input {
@@ -66,24 +68,6 @@
   }
 
   .section-subscribe > .container > .subscribe button {
-    margin: 5% 32%;
-  }
-}
-
-@media (max-width: 599px) {
-  .section-subscribe > .container > .subscribe {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .section-subscribe > .container > .subscribe input {
-    width: 100%;
-  }
-
-  .section-subscribe > .container > .subscribe button {
-    margin: 5% 32%;
-  }
-  .section-contact .container {
-    padding: 0 1rem;
+    margin-top: 2rem;
   }
 }

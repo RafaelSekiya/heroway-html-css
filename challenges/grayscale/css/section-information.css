@@ -77,7 +77,7 @@
   > .mountains
   .mountains-text
   .green-bar {
-  margin-left: 3rem;
+  display: inline-block;
 }
 
 /* for-desktop-up */
@@ -148,8 +148,7 @@
     > .mountains
     .mountains-text
     .green-bar {
-    margin-top: 5px;
-    margin-left: 36%;
+    display: inline-block;
   }
 
   #section-information > .container > .examples > .misty .green-bar {
