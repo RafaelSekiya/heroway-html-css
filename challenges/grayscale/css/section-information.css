@@ -1,74 +1,159 @@
-.section-information{
-    height: 1500px;
-    width: 100%;
-    max-width: 1900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#section-information {
+  height: 100%;
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section-information > .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 1000px;
+#section-information > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.section-information > .container > .shoreline > .text {
-    color: #858586;
-    padding-left: 30px;
-    border-left: 8px solid #64a19d;
+#section-information > .container > .shoreline > .text {
+  color: #858586;
+  padding-left: 30px;
+  border-left: 8px solid #64a19d;
 }
 
-.section-information > .container > .shoreline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+#section-information > .container > .shoreline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0 15%;
 }
 
-.shoreline  img {
-    width: 650px;
-    height: 400px;
+.shoreline img {
+  width: 60%;
+  height: 40%;
 }
 
-.section-information > .container > .examples > .misty {
-    background-color: #161616;
-    color: #858586;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+#section-information > .container > .examples {
+  padding: 0 15%;
 }
 
-.section-information > .container > .examples > .misty h3 {
-    color: white;
+#section-information > .container > .examples > .misty {
+  background-color: #161616;
+  color: #858586;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#section-information > .container > .examples > .misty h3 {
+  color: white;
 }
 
 .examples img {
-    width: 50%;
+  width: 50%;
 }
 
-.section-information > .container > .examples > .misty .text2 {
-    padding: 0 60px;
+#section-information > .container > .examples > .misty .text2 {
+  padding: 0px 1em;
 }
 
-.section-information > .container > .examples > .mountains {
-    background-color: #161616;
-    color: #858586;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
+#section-information > .container > .examples > .mountains {
+  background-color: #161616;
+  color: #858586;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
 }
 
-.section-information > .container > .examples > .mountains .mountains-text {
-    padding: 0 50px;
+#section-information > .container > .examples > .mountains .mountains-text {
+  padding: 0px 1.5em;
 }
 
-.section-information > .container > .examples > .mountains .mountains-text .green-bar {
-    margin-left: 273px;
+#section-information
+  > .container
+  > .examples
+  > .mountains
+  .mountains-text
+  .green-bar {
+  margin-left: 3rem;
 }
 
+/* for-desktop-up */
+@media (max-width: 1200px) {
+  #section-information > .container > .shoreline {
+    flex-direction: column;
+    height: auto;
+  }
+  #section-information > .container > .shoreline img {
+    width: 100%;
+  }
+}
 
+/* for-phone only */
+@media (max-width: 599px) {
+  #section-information {
+    margin: 100px 0;
+  }
+
+  #section-information > .container > .shoreline {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+  }
+
+  #section-information > .container > .shoreline img {
+    width: 100%;
+  }
+
+  #section-information > .container > .examples {
+    padding: 0;
+  }
+
+  #section-information > .container > .examples .misty {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  #section-information > .container > .examples .misty img {
+    width: 100%;
+  }
+
+  #section-information > .container > .examples .misty .text2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  #section-information > .container > .examples > .mountains {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+  }
+
+  #section-information > .container > .examples > .mountains img {
+    width: 100%;
+  }
+
+  #section-information > .container > .examples > .mountains .mountains-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  #section-information
+    > .container
+    > .examples
+    > .mountains
+    .mountains-text
+    .green-bar {
+    margin-top: 5px;
+    margin-left: 36%;
+  }
+
+  #section-information > .container > .examples > .misty .green-bar {
+    margin-top: 5px;
+    margin-left: 36%;
+  }
+}

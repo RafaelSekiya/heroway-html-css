@@ -1,51 +1,89 @@
 .section-subscribe {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 70%, #000000 100%), url(../img/bg-signup.jpg);
-    background-position: center;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 70%,
+      #000000 100%
+    ),
+    url(../img/bg-signup.jpg);
+  background-position: center;
+  height: 33rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
 }
 
 .section-subscribe > .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
 }
 
 .section-subscribe > .container h3 {
-    font: 35px 'Nunito';
-    color: white;
-    font-weight: normal;
+  font: 35px "Nunito";
+  color: white;
+  font-weight: normal;
 }
 
 .section-subscribe > .container > .subscribe {
-    display:flex;
-    margin: 30px auto; 
+  margin: 30px auto;
 }
 
 .section-subscribe > .container > .subscribe input {
-    width: 600px;
-    height: 55px;
-    border-radius: 5px;
-    border: none;
-    padding-left: 30px;
-    letter-spacing: 3px;
+  width: 600px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 30px;
+  letter-spacing: 3px;
 }
 
 .section-subscribe > .container > .subscribe button {
-    width: 160px;
-    height: 55px;
-    background-color: #64A19D;
-    color: white;
-    font-family: 'Varela Round', 'Nunito';
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    letter-spacing: 2px;
-    cursor: pointer;
+  width: 160px;
+  height: 55px;
+  background-color: #64a19d;
+  color: white;
+  font-family: "Varela Round", "Nunito";
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .section-subscribe > .container > .subscribe {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .section-subscribe > .container > .subscribe input {
+    width: 100%;
+  }
+
+  .section-subscribe > .container > .subscribe button {
+    margin: 5% 32%;
+  }
+}
+
+@media (max-width: 599px) {
+  .section-subscribe > .container > .subscribe {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .section-subscribe > .container > .subscribe input {
+    width: 100%;
+  }
+
+  .section-subscribe > .container > .subscribe button {
+    margin: 5% 32%;
+  }
+  .section-contact .container {
+    padding: 0 1rem;
+  }
 }

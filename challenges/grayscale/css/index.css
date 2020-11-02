@@ -10,23 +10,22 @@
 @import "subscribe.css";
 @import "section-contact.css";
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body,
-  html {
-    font: 16px "Nunito", "Varela Round";
-    scroll-behavior: smooth;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .green-bar {
-    margin-top: 15px;
-    width: 120px;
-    height: 5px;
-    background-color: #64A19D;
-    border-radius: 10px;
+body,
+html {
+  font: 16px "Nunito", "Varela Round";
+  scroll-behavior: smooth;
+}
+
+.green-bar {
+  margin-top: 15px;
+  width: 120px;
+  height: 5px;
+  background-color: #64a19d;
+  border-radius: 10px;
 }
