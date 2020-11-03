@@ -37,18 +37,25 @@
   color: #b8baba;
 }
 
-.grayscale > .container button {
-  margin: 50px auto;
+.grayscale > .container a {
+  margin: 3rem auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
   background-color: #64a19d;
-  border: none;
   color: white;
+
   width: 170px;
-  font-size: 18px;
-  border-radius: 6px;
   height: 60px;
+  letter-spacing: 1.5px;
+  border-radius: 6px;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  font-family: "Nunito";
-  cursor: pointer;
+  font-family: 'Varela Round';
+  text-decoration: none;
 }
 
 @media (max-width: 599px) {

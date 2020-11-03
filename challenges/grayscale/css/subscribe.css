@@ -34,7 +34,7 @@
 }
 
 .section-subscribe > .container > .subscribe input {
-  width: 600px;
+  width: 40rem;
   height: 55px;
   border-radius: 5px;
   border: none;
@@ -44,13 +44,12 @@
 
 .section-subscribe > .container > .subscribe button {
   width: 12rem;
-  height: 4rem;
+  height: 3.5rem;
   background-color: #64a19d;
   color: white;
   font-family: "Varela Round", "Nunito";
   border: none;
   border-radius: 5px;
-  margin-left: 10px;
   letter-spacing: 2px;
   cursor: pointer;
 }

@@ -24,8 +24,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
-  padding: 0 15%;
+  margin: 3rem auto;
+  padding: 0 20%;
 }
 
 .shoreline img {
@@ -34,7 +34,7 @@
 }
 
 #section-information > .container > .examples {
-  padding: 0 15%;
+  padding: 0 20%;
 }
 
 #section-information > .container > .examples > .misty {
@@ -125,6 +125,10 @@
     text-align: center;
     width: 100%;
   }
+  
+  #section-information > .container > .examples > .misty .green-bar {
+    display: inline-block;
+  }
 
   #section-information > .container > .examples > .mountains {
     flex-direction: column-reverse;
@@ -149,10 +153,5 @@
     .mountains-text
     .green-bar {
     display: inline-block;
-  }
-
-  #section-information > .container > .examples > .misty .green-bar {
-    margin-top: 5px;
-    margin-left: 36%;
   }
 }

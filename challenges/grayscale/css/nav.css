@@ -16,7 +16,7 @@
 
 .nav > .container .menu {
   display: flex;
-  width: 100%;
+  width: 20rem;
   justify-content: space-around;
 }
 
@@ -28,6 +28,7 @@ a:visited {
 
 @media (max-width: 599px) {
   .nav > .container {
+    width: 100%;
     flex-direction: column;
   }
 
