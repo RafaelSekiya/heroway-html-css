@@ -26,7 +26,6 @@
 
 #section-contact .container p {
   height: 1rem;  /* Para alinhar o green-bar verticalmente*/ 
-  letter-spacing: 1px;
   font-size: 0.7rem;
   color: #858586;
 }

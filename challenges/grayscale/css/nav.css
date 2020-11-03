@@ -36,11 +36,7 @@ a:visited {
     padding: 20px;
   }
 
-  .nav > .container {
-    max-width: 100%;
-  }
-
   .nav > .container > .menu {
-    justify-content: space-around;
+    width: 100%;
   }
 }

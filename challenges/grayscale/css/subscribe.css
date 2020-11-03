@@ -6,12 +6,13 @@
       #000000 100%
     ),
     url(../img/bg-signup.jpg);
-  background-position: center;
-  height: 33rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
 }
 
 .section-subscribe > .container {

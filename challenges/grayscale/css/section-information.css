@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   margin: 3rem auto;
-  padding: 0 20%;
+  padding: 0 18%;
 }
 
 .shoreline img {
@@ -34,41 +34,61 @@
 }
 
 #section-information > .container > .examples {
-  padding: 0 20%;
+  padding: 0 18%;
+  margin-bottom: 4rem;
 }
 
 #section-information > .container > .examples > .misty {
   background-color: #161616;
   color: #858586;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   text-align: left;
 }
 
 #section-information > .container > .examples > .misty h3 {
+  font-family: 'Varela Round';
+  font-weight: normal;
   color: white;
 }
 
 .examples img {
+  display:flex;
   width: 50%;
 }
 
 #section-information > .container > .examples > .misty .text2 {
-  padding: 0px 1em;
-}
 
+  /* para evitar erros na proporção responsiva */ 
+  display:flex;
+  flex-direction:column;   
+  justify-content:center;
+  padding: 0rem 3rem;
+}
+/*
+#section-information > .container > .examples p {
+  font-size: 0.8rem;
+}
+*/
 #section-information > .container > .examples > .mountains {
   background-color: #161616;
   color: #858586;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: right;
 }
 
+#section-information > .container > .examples > .mountains h3 {
+  font-family: 'Varela Round';
+  font-weight: normal;
+  color: white;
+}
+
 #section-information > .container > .examples > .mountains .mountains-text {
-  padding: 0px 1.5em;
+
+  display:flex;
+  flex-direction:column;   
+  justify-content:center;
+  padding: 0rem 4%;
 }
 
 #section-information
@@ -77,10 +97,11 @@
   > .mountains
   .mountains-text
   .green-bar {
-  display: inline-block;
+    display: flex;
+    place-self: flex-end;
 }
 
-/* for-desktop-up */
+/* for-desktop-up */ 
 @media (max-width: 1200px) {
   #section-information > .container > .shoreline {
     flex-direction: column;
@@ -91,11 +112,9 @@
   }
 }
 
+
 /* for-phone only */
 @media (max-width: 599px) {
-  #section-information {
-    margin: 100px 0;
-  }
 
   #section-information > .container > .shoreline {
     flex-direction: column;
@@ -127,7 +146,7 @@
   }
   
   #section-information > .container > .examples > .misty .green-bar {
-    display: inline-block;
+    place-self: center;
   }
 
   #section-information > .container > .examples > .mountains {
@@ -152,6 +171,6 @@
     > .mountains
     .mountains-text
     .green-bar {
-    display: inline-block;
+    place-self: center;
   }
 }
