@@ -6,7 +6,7 @@
       #000000 100%
     ),
     url(../img/bg-signup.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
     height: 33rem;
     display: flex;
